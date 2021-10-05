@@ -1,0 +1,23 @@
+body
+{
+    margin: auto;
+    text-align: center;
+    background: yellow;
+}
+
+h1
+{
+    font-family: 'Syncopate', sans-serif;
+    font-size: 80px;
+    margin: 5% auto;
+    color: black;
+}
+
+h2 
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin: 10% auto;
+    color:black;
+
+}
