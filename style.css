@@ -21,3 +21,36 @@ h2
     color:black;
 
 }
+
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu li a {
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    margin-right: 10px;
+    color: #fff;
+    position: relative;
+}
+
+.menu li a::before {
+    content: "";
+    height: 5px;
+    width: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: 0.3s;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.menu li a:hover::before {
+    width: 100%;
+    background-color: black;
+}
