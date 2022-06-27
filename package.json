@@ -1,21 +1,14 @@
 {
-  "name": "suhyouri.github.io",
+  "name": "spa",
   "version": "1.0.0",
-  "description": "https://suhyouri.github.io/test.github.io/",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/suhyouri/suhyouri.github.io.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/suhyouri/suhyouri.github.io/issues"
-  },
-  "homepage": "https://github.com/suhyouri/suhyouri.github.io#readme",
   "dependencies": {
     "express": "^4.18.1"
   },
