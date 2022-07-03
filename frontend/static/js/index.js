@@ -3,6 +3,28 @@ import Posts from "./views/Posts.js";
 import PostView from "./views/PostView.js";
 import Settings from "./views/Settings.js";
 
+const toggle = document.getElementById("toggle");
+const page_link = document.getElementById("page_link");
+
+let hidden = false;
+
+function toggleHandler(e) {
+  e.preventDefault();
+  if (hidden) {
+    page_link.classList.remove("hidden");
+    page_link.classList.add("opened");
+    console.log("visible")
+    hidden = false;
+  } else {
+    page_link.classList.add("hidden");
+    page_link.classList.remove("opened");
+    console.log("hidden")
+    hidden = true;
+  }
+}
+toggle.addEventListener("click", toggleHandler)
+
+
 
 const pathToRegex = path => new RegExp("^" + path.replace(/\//g, "\\/").replace(/:\w+/g, "(.+)") + "$");
 const getParams = match => {
