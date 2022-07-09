@@ -134,7 +134,7 @@ export default class extends AbstractView {
             </a>
             <a href="/1-More-2021" class="card" data-link>
               <div class="thumb_image">
-                <img src="./static/assets/1_Illustration/Gossan-high(2019).png" alt="pilates" width="200px" 
+                <img src="./static/assets/1_Illustration/gossan-high-2019-orange-teaser-download-1080p.gif" alt="pilates" width="200px" 
     aspect-ratio="auto 200 / 134" height="134px"/>
               </div>
               <div class="thumb_title">
@@ -257,38 +257,47 @@ export default class extends AbstractView {
         <section class="container">
             <a href="/1-More-2021" class="card" data-link>
               <div class="thumb_image">
-                <img src="./static/assets/2_game/1-more/onemore_title_2.gif" alt="pilates" width="200px" 
+                <img src="./static/assets/7_movingImage/wayhome(2017).png" alt="pilates" width="200px" 
     aspect-ratio="auto 200 / 134" height="134px"/>
               </div>
               <div class="thumb_title">
-                <span">해봄집(2022)</span>
+                <span>Way Home(2017)</span>
               </div>
             </a>
             <a href="/1-More-2021" class="card" data-link>
               <div class="thumb_image">
-                <img src="./static/assets/2_game/1-more/onemore_title_2.gif" alt="pilates" width="200px" 
+                <img src="./static/assets/7_movingImage/desert(2016).jpeg" alt="pilates" width="200px" 
     aspect-ratio="auto 200 / 134" height="134px"/>
               </div>
               <div class="thumb_title">
-                <span">아주 사적인 편지(2021)</span>
+                <span>각자의 사막(2016)</span>
               </div>
             </a>
             <a href="/1-More-2021" class="card" data-link>
               <div class="thumb_image">
-                <img src="./static/assets/2_game/1-more/onemore_title_2.gif" alt="pilates" width="200px" 
+                <img src="./static/assets/7_movingImage/find(2015).jpeg" alt="pilates" width="200px" 
     aspect-ratio="auto 200 / 134" height="134px"/>
               </div>
               <div class="thumb_title">
-                <span">성남(2020)</span>
+                <span>ㅊ(2015)</span>
               </div>
             </a>
             <a href="/1-More-2021" class="card" data-link>
               <div class="thumb_image">
-                <img src="./static/assets/2_game/1-more/onemore_title_2.gif" alt="pilates" width="200px" 
+                <img src="./static/assets/7_movingImage/reflection(2016).jpeg" alt="pilates" width="200px" 
     aspect-ratio="auto 200 / 134" height="134px"/>
               </div>
               <div class="thumb_title">
-                <span">문(2019)</span>
+                <span>Reflection(2016)</span>
+              </div>
+            </a>
+            <a href="/1-More-2021" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/7_movingImage/myhome(2015).png" alt="pilates" width="200px" 
+    aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span>은행2동(2015)</span>
               </div>
             </a>
         </section>
