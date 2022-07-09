@@ -4,6 +4,7 @@ import PostView from "./views/PostView.js";
 import Settings from "./views/Settings.js";
 import About from "./views/About.js";
 import Works from "./views/Works.js";
+import OneMore2021 from "./views/1-More-2021.js";
 
 /* toggle */
 const toggle = document.getElementById("toggle");
@@ -56,6 +57,7 @@ const router = async () => {
     { path: "/settings", view: Settings },
     { path: "/about", view: About },
     { path: "/works/:id", view: Works },
+    { path: "/1-More-2021", view: OneMore2021 },
     // { path: "/", view: () => console.log("viewing dashboard") },
     // { path: "/posts", view: () => console.log("viewing Posts") },
     // { path: "/settings", view: () => console.log("viewing Settings") },

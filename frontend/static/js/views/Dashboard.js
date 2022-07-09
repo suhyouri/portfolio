@@ -8,29 +8,294 @@ export default class extends AbstractView {
 
   async getHTML() {
     return `
+    
+        <div class="set_title_thumbnails">Conceptual Work</div>
+        <div class="project_content">
         <section class="container">
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1544782321-8fab42cfd62e?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070" alt="소주"/>
-                <span>저는 소주를 안 좋아해요!</span>
-            </div>
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1436076863939-06870fe779c2?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070" alt="맥주"/>
-                <span>애플퐉스같은 맛있는 맥주가 좋아요.</span>
-            </div>
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2157" alt="칵테일"/>
-                <span>샴페인 좋아요~ 샴페인 좋아요~</span>
-            </div>
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072" alt="와인"/>
-                <span>와인의 매력을 아직 깨닫지 못했어요.</span>
-            </div>
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069" alt="위스키"/>
-                <span>먹어본 적이 없을 무!</span>
-            </div>
+            <a href="/1-More-2021" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/2_game/1-more/onemore_title_2.gif" alt="pilates" width="200px" 
+    aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span>1-More-2021</span>
+              </div>
+            </a>
 
+            <a href="pointless-sight" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/2_game/PointlessSight/main-img.gif" width="200px" aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span">영-영, Pointless Sight(2018)</span>
+              </div>
+            </a>
+
+            <a href="/1-More-2021" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/6_etc/spareNose(2018).jpeg" alt="pilates" width="200px" aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span>여분의 코(2018)</span>
+              </div>
+            </a>
+
+            <a href="/1-More-2021" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/6_etc/emojidialogue(2017).png" alt="pilates" width="200px" aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span>Emoji Dialogue(2017)</span>
+              </div>
+            </a>
+
+            <a href="/1-More-2021" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/6_etc/privatelessonToughLife(2016).jpeg" alt="pilates" width="200px" aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span>고생개인지도(2016)</span>
+              </div>
+            </a>
+
+            <a href="/1-More-2021" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/6_etc/evilpigeon(2016).png" alt="pilates" width="200px" 
+    aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span>악덕한 비둘기(2016)</span>
+              </div>
+            </a>
         </section>
+
+        <div class="set_title_thumbnails">Books</div>
+        <div class="project_content">
+        <section class="container">
+            <a href="/1-More-2021" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/4_design/SNM/SNM_mockup-1.jpg" width="200px" 
+    aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span>해봄집(2022)</span>
+              </div>
+            </a>
+            <a href="/1-More-2021" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/4_design/VPL/VPL_mockup-1.jpg" alt="pilates" width="200px" 
+    aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span>아주 사적인 편지(2021)</span>
+              </div>
+            </a>
+            <a href="/1-More-2021" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/4_design/SN/SN-2020-seongnam.jpg" alt="pilates" width="200px" 
+    aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span>성남(2020)</span>
+              </div>
+            </a>
+            <a href="/1-More-2021" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/4_design/Door/door(2019)-1.png" alt="pilates" width="200px" 
+    aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span>문(2019)</span>
+              </div>
+            </a>
+        </section>
+
+        
+        <div class="set_title_thumbnails">Illustrations</div>
+        <div class="project_content">
+        <section class="container">
+            <a href="/1-More-2021" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/1_Illustration/buddy(2020).jpeg" alt="pilates" width="200px" 
+    aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span>2인조(2020)</span>
+              </div>
+            </a>
+            <a href="/1-More-2021" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/1_Illustration/bombom.gif" alt="pilates" width="200px" 
+    aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span>봄봄아라(2020)</span>
+              </div>
+            </a>
+            <a href="/1-More-2021" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/1_Illustration/Gossan-high(2019).png" alt="pilates" width="200px" 
+    aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span>Gosaan-high(2019)</span>
+              </div>
+            </a>
+            <a href="/1-More-2021" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/1_Illustration/dance(2017).png" alt="pilates" width="200px" 
+    aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span>댠스(2017)</span>
+              </div>
+            </a>
+            <a href="/1-More-2021" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/1_Illustration/postcard(2016).jpeg" alt="pilates" width="200px" 
+    aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span>엽서(2016)</span>
+              </div>
+            </a>
+            <a href="/1-More-2021" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/1_Illustration/end2015.gif" alt="pilates" width="200px" 
+    aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span>끝(2015)</span>
+              </div>
+            </a>
+            <a href="/1-More-2021" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/1_Illustration/simsim(2015).gif" alt="pilates" width="200px" 
+    aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span>심심(2015)</span>
+              </div>
+            </a>
+            <a href="/1-More-2021" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/1_Illustration/bath(2015).jpeg" alt="pilates" width="200px" 
+    aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span>목욕(2015)</span>
+              </div>
+            </a>
+            <a href="/1-More-2021" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/1_Illustration/swim(2015).jpeg" alt="pilates" width="200px" 
+    aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span>수영(2015)</span>
+              </div>
+            </a>
+            <a href="/1-More-2021" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/1_Illustration/play(2015).jpeg" alt="pilates" width="200px" 
+    aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span>연극(2015)</span>
+              </div>
+            </a>
+            <a href="/1-More-2021" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/1_Illustration/diary(2015).jpeg" alt="pilates" width="200px" 
+    aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span>그림일기(2013)~</span>
+              </div>
+            </a>
+            <a href="/1-More-2021" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/1_Illustration/sketchbooking(2015).jpeg" alt="pilates" width="200px" 
+    aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span>Sketchbook-ing(2015)</span>
+              </div>
+            </a>
+            <a href="/1-More-2021" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/1_Illustration/sister(2014).jpeg" alt="pilates" width="200px" 
+    aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span>언니랑(2014)</span>
+              </div>
+            </a>
+            <a href="/1-More-2021" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/1_Illustration/namecardPortrait(2013~).jpeg" alt="pilates" width="200px" 
+    aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span>명함그림프로젝트(2013~)</span>
+              </div>
+            </a>
+            <a href="/1-More-2021" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/1_Illustration/scar(2013~).jpeg" alt="pilates" width="200px" 
+    aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span>상처(2013~)</span>
+              </div>
+            </a>
+        </section>
+
+
+        <div class="set_title_thumbnails">Photography & Moving Image</div>
+        <div class="project_content">
+        <section class="container">
+            <a href="/1-More-2021" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/2_game/1-more/onemore_title_2.gif" alt="pilates" width="200px" 
+    aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span">해봄집(2022)</span>
+              </div>
+            </a>
+            <a href="/1-More-2021" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/2_game/1-more/onemore_title_2.gif" alt="pilates" width="200px" 
+    aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span">아주 사적인 편지(2021)</span>
+              </div>
+            </a>
+            <a href="/1-More-2021" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/2_game/1-more/onemore_title_2.gif" alt="pilates" width="200px" 
+    aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span">성남(2020)</span>
+              </div>
+            </a>
+            <a href="/1-More-2021" class="card" data-link>
+              <div class="thumb_image">
+                <img src="./static/assets/2_game/1-more/onemore_title_2.gif" alt="pilates" width="200px" 
+    aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
+              <div class="thumb_title">
+                <span">문(2019)</span>
+              </div>
+            </a>
+        </section>
+
+
+        </div>
+
         `;
   }
 }
