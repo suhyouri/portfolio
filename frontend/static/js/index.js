@@ -2,7 +2,10 @@ import Dashboard from "./views/Dashboard.js";
 import Posts from "./views/Posts.js";
 import PostView from "./views/PostView.js";
 import Settings from "./views/Settings.js";
+import About from "./views/About.js";
+import Works from "./views/Works.js";
 
+/* toggle */
 const toggle = document.getElementById("toggle");
 const page_link = document.getElementById("page_link");
 
@@ -51,6 +54,8 @@ const router = async () => {
     { path: "/posts", view: Posts },
     { path: "/posts/:id", view: PostView },
     { path: "/settings", view: Settings },
+    { path: "/about", view: About },
+    { path: "/works/:id", view: Works },
     // { path: "/", view: () => console.log("viewing dashboard") },
     // { path: "/posts", view: () => console.log("viewing Posts") },
     // { path: "/settings", view: () => console.log("viewing Settings") },
@@ -79,7 +84,6 @@ const router = async () => {
     document.querySelector("#app").innerHTML = await view.getHTML();
   //     // console.log(potentialMatches)
   //     // console.log(match.route.view());
-
 //   console.log(match.route.view());
 };
 

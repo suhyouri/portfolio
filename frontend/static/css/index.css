@@ -1,9 +1,9 @@
-@font-face {
+/* @font-face {
     font-family: '87MMILSANG-Regular';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201@1.0/87MMILSANG-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-}
+} */
 
 .hidden {
     display: none;
@@ -18,32 +18,42 @@ ul{
 
 
 body {
-    --nav-width: 200px;
-    margin: 0 0 0 var(--nav-width);
+    --nav-width: 250px;
+    /* margin: 0 0 0 var(--nav-width); */
+    margin: 0 0 0 0;
     font-family: 'AppleSDGothicNeo', 'Noto Sans KR', sans-serif;;
     font-size: 18px;
 }
 
 header {
     background-color: #009579;
-    border: 1px solid #009579;
-    height: 50px;
+    /* border: 1px solid #009579; */
+    height: 100px;
 }
 
-.nav > .cropped img{
+header > .cropped img {
     margin: -40px 0 -50px 0;
+    padding: 0 0 0 20px;
+}
+
+main {
+    /* display:grid; */
+    display: flex;
+    /* grid-template-columns: 20% 80%; */
 }
 
 .nav {
-    position: fixed;
+    /* position: absolute; */
+    /* position: sticky; */
+    background-color: yellow;
     top: 0;
     left: 0;
-    width: var(--nav-width);
+    width: 200px;
     height: 100vh;
-    background: #ffffff;
+    /* background: #ffffff; */
     color:#222222;
     font-size: 12px;
-    /* padding: 2px 3px 2px 3px; */
+    padding: 0 50px 0 0;
 }
 
 .nav > div{
@@ -52,7 +62,7 @@ header {
 }
 .nav__link {
     display: block;
-    padding: 0px 18px;
+    padding: 0 0 0 40px;
     text-decoration: none;
     color: #222222;
     font-weight: 500;
@@ -64,11 +74,28 @@ header {
 }
 
 #app {
-    margin: 2em;
-    line-height: 1.5;
-    font-weight: 500;
+    /* padding: 0 2em; */
+    /* line-height: 1.5; */
+    /* font-weight: 500; */
+    background-color: salmon;
+    width: 100vw;
+    height: 100vh;
 }
 
+.project_title {
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.8em;
+    padding: 0 0 20px 0;
+}
+
+.project_content {
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 1.6;
+}
 a {
     color: #009579;
 }
@@ -83,4 +110,49 @@ a {
 
 .set_name {
     font-weight: bold;
+}
+
+footer {
+    background-color: #009579;
+    /* border: 1px solid #009579; */
+    color: #000000;
+    font-size: 12px;
+}
+
+.container{
+    /* display: flex; */
+    display: block;
+    flex-flow: row wrap;
+    /* flex:1; */
+    /* align-content: flex-start; */
+    margin-left: 10px;
+    /* overflow-y: scroll; */
+    width: 100%;
+    /* border: 1px solid seagreen; */
+}
+
+.card{
+    /* display: flex; */
+    display: inline-block;
+    flex-flow: column nowrap;
+    width: 200px;
+    height: 150px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    padding: 10px;
+    background-color: salmon;
+    margin: 10px;
+    font-size: 13px;
+}
+
+.card img{
+  overflow: hidden;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.card > span{
+    text-align: center;
+    word-break: break-all;
 }
