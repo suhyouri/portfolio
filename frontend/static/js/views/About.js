@@ -21,6 +21,7 @@ export default class extends AbstractView {
         open new experience !
         <br>
         <img src="./static/assets/0_about/2016_lizardbody.png" height="185" width="auto">
+        <a href="mailto:suhyouri@gmail.com" class="nav__link"><b>Contact</b></a>
     </div>
         `;
   }
