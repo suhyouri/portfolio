@@ -18,11 +18,11 @@ export default class extends AbstractView {
     aspect-ratio="auto 200 / 134" height="134px"/>
               </div>
               <div class="thumb_title">
-                <span>1-More-2021</span>
+                <span>1 More(2021)</span>
               </div>
             </a>
 
-            <a href="pointless-sight" class="card" data-link>
+            <a href="/Pointless-Sight-2018" class="card" data-link>
               <div class="thumb_image">
                 <img src="./static/assets/2_game/PointlessSight/main-img.gif" width="200px" aspect-ratio="auto 200 / 134" height="134px"/>
               </div>
@@ -293,7 +293,7 @@ export default class extends AbstractView {
             </a>
             <a href="/1-More-2021" class="card" data-link>
               <div class="thumb_image">
-                <img src="./static/assets/7_movingImage/myhome(2015).png" alt="pilates" width="200px" 
+                <img src="./static/assets/7_movingImage/home-2015.png" alt="pilates" width="200px" 
     aspect-ratio="auto 200 / 134" height="134px"/>
               </div>
               <div class="thumb_title">

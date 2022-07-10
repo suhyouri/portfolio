@@ -5,6 +5,7 @@ import Settings from "./views/Settings.js";
 import About from "./views/About.js";
 import Works from "./views/Works.js";
 import OneMore2021 from "./views/1-More-2021.js";
+import PointlessSight2018 from "./views/Pointless-Sight-2018.js";
 
 /* toggle */
 const toggle = document.getElementById("toggle");
@@ -58,6 +59,7 @@ const router = async () => {
     { path: "/about", view: About },
     { path: "/works/:id", view: Works },
     { path: "/1-More-2021", view: OneMore2021 },
+    { path: "/Pointless-Sight-2018", view: PointlessSight2018 },
     // { path: "/", view: () => console.log("viewing dashboard") },
     // { path: "/posts", view: () => console.log("viewing Posts") },
     // { path: "/settings", view: () => console.log("viewing Settings") },
