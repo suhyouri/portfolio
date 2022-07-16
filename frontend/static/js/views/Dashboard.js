@@ -14,8 +14,7 @@ export default class extends AbstractView {
         <section class="container">
             <a href="/1-More-2021" class="card" data-link>
               <div class="thumb_image">
-                <img src="./static/assets/2_game/1-more/onemore_title.jpg" alt="pilates" width="200px" 
-    aspect-ratio="auto 200 / 134" height="134px"/>
+                <img src="./static/assets/2_game/1-more/onemore_title.jpg" alt="pilates" width="200px" aspect-ratio="auto 200 / 134" height="134px"/>
               </div>
               <div class="thumb_title">
                 <span>1 More(2021)</span>
@@ -74,8 +73,7 @@ export default class extends AbstractView {
         <section class="container">
             <a href="/1-More-2021" class="card" data-link>
               <div class="thumb_image">
-                <img src="./static/assets/4_design/SNM/SNM_mockup-1.jpg" width="200px" 
-    aspect-ratio="auto 200 / 134" height="134px"/>
+                <img src="./static/assets/4_design/SNM/SNM_mockup-1.jpg" width="200px" aspect-ratio="auto 200 / 134" height="134px"/>
               </div>
               <div class="thumb_title">
                 <span>해봄집(2022)</span>
@@ -83,8 +81,7 @@ export default class extends AbstractView {
             </a>
             <a href="/1-More-2021" class="card" data-link>
               <div class="thumb_image">
-                <img src="./static/assets/4_design/VPL/VPL_mockup-1.jpg" width="200px" 
-    aspect-ratio="auto 200 / 134" height="134px"/>
+                <img src="./static/assets/4_design/VPL/VPL_mockup-1.jpg" width="200px" aspect-ratio="auto 200 / 134" height="134px"/>
               </div>
               <div class="thumb_title">
                 <span>아주 사적인 편지(2021)</span>
@@ -92,8 +89,7 @@ export default class extends AbstractView {
             </a>
             <a href="/1-More-2021" class="card" data-link>
               <div class="thumb_image">
-                <img src="./static/assets/4_design/SN/SN-2020-seongnam.jpg" width="200px" 
-    aspect-ratio="auto 200 / 134" height="134px"/>
+                <img src="./static/assets/4_design/SN/SN-2020-seongnam.jpg" width="200px" aspect-ratio="auto 200 / 134" height="134px"/>
               </div>
               <div class="thumb_title">
                 <span>성남(2020)</span>
@@ -101,8 +97,7 @@ export default class extends AbstractView {
             </a>
             <a href="/1-More-2021" class="card" data-link>
               <div class="thumb_image">
-                <img src="./static/assets/4_design/Door/door(2019)-1.png" width="200px" 
-    aspect-ratio="auto 200 / 134" height="134px"/>
+                <img src="./static/assets/4_design/Door/door(2019)-1.png" width="200px" aspect-ratio="auto 200 / 134" height="134px"/>
               </div>
               <div class="thumb_title">
                 <span>문(2019)</span>
