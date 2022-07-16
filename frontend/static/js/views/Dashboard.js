@@ -14,7 +14,7 @@ export default class extends AbstractView {
         <section class="container">
             <a href="/1-More-2021" class="card" data-link>
               <div class="thumb_image">
-                <img src="./static/assets/2_game/1-more/onemore_title.jpg" alt="pilates" width="200px" aspect-ratio="auto 200 / 134" height="134px"/>
+                <img src="./static/assets/2_game/1_more/onemoretitle.jpg" alt="pilates" width="200px" aspect-ratio="auto 200 / 134" height="134px"/>
               </div>
               <div class="thumb_title">
                 <span>1 More(2021)</span>
@@ -23,7 +23,7 @@ export default class extends AbstractView {
 
             <a href="/Pointless-Sight-2018" class="card" data-link>
               <div class="thumb_image">
-                <img src="./static/assets/2_game/PointlessSight/main-img.jpg" width="200px" aspect-ratio="auto 200 / 134" height="134px"/>
+                <img src="./static/assets/2_game/2_pointlessSight/mainimg.jpg" width="200px" aspect-ratio="auto 200 / 134" height="134px"/>
               </div>
               <div class="thumb_title">
                 <span">영-영, Pointless Sight(2018)</span>
