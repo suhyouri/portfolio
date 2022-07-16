@@ -14,7 +14,7 @@ export default class extends AbstractView {
         <section class="container">
             <a href="/1-More-2021" class="card" data-link>
               <div class="thumb_image">
-                <img src="./static/assets/2_game/1-more/onemore_title_2.gif" alt="pilates" width="200px" 
+                <img src="./static/assets/2_game/1-more/onemore_title.jpg" alt="pilates" width="200px" 
     aspect-ratio="auto 200 / 134" height="134px"/>
               </div>
               <div class="thumb_title">
@@ -24,7 +24,7 @@ export default class extends AbstractView {
 
             <a href="/Pointless-Sight-2018" class="card" data-link>
               <div class="thumb_image">
-                <img src="./static/assets/2_game/PointlessSight/main-img.gif" width="200px" aspect-ratio="auto 200 / 134" height="134px"/>
+                <img src="./static/assets/2_game/PointlessSight/main-img.jpg" width="200px" aspect-ratio="auto 200 / 134" height="134px"/>
               </div>
               <div class="thumb_title">
                 <span">영-영, Pointless Sight(2018)</span>
@@ -83,7 +83,7 @@ export default class extends AbstractView {
             </a>
             <a href="/1-More-2021" class="card" data-link>
               <div class="thumb_image">
-                <img src="./static/assets/4_design/VPL/VPL_mockup-1.jpg" alt="pilates" width="200px" 
+                <img src="./static/assets/4_design/VPL/VPL_mockup-1.jpg" width="200px" 
     aspect-ratio="auto 200 / 134" height="134px"/>
               </div>
               <div class="thumb_title">
@@ -92,7 +92,7 @@ export default class extends AbstractView {
             </a>
             <a href="/1-More-2021" class="card" data-link>
               <div class="thumb_image">
-                <img src="./static/assets/4_design/SN/SN-2020-seongnam.jpg" alt="pilates" width="200px" 
+                <img src="./static/assets/4_design/SN/SN-2020-seongnam.jpg" width="200px" 
     aspect-ratio="auto 200 / 134" height="134px"/>
               </div>
               <div class="thumb_title">
@@ -101,7 +101,7 @@ export default class extends AbstractView {
             </a>
             <a href="/1-More-2021" class="card" data-link>
               <div class="thumb_image">
-                <img src="./static/assets/4_design/Door/door(2019)-1.png" alt="pilates" width="200px" 
+                <img src="./static/assets/4_design/Door/door(2019)-1.png" width="200px" 
     aspect-ratio="auto 200 / 134" height="134px"/>
               </div>
               <div class="thumb_title">
@@ -161,7 +161,7 @@ export default class extends AbstractView {
             </a>
             <a href="/1-More-2021" class="card" data-link>
               <div class="thumb_image">
-                <img src="./static/assets/1_Illustration/end2015.gif" alt="pilates" width="200px" 
+                <img src="./static/assets/1_Illustration/end2015_1.gif" alt="pilates" width="200px" 
     aspect-ratio="auto 200 / 134" height="134px"/>
               </div>
               <div class="thumb_title">
