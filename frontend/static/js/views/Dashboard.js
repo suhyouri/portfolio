@@ -14,7 +14,7 @@ export default class extends AbstractView {
         <section class="container">
             <a href="/1-More-2021" class="card" data-link>
               <div class="thumb_image">
-                <img src="./static/assets/2_game/onemoretitle.jpg" alt="pilates" width="200px" aspect-ratio="auto 200 / 134" height="134px"/>
+                <img src="./static/assets/6_etc/spareNose(2018).jpeg" alt="pilates" width="200px" aspect-ratio="auto 200 / 134" height="134px"/>
               </div>
               <div class="thumb_title">
                 <span>1 More(2021)</span>
@@ -32,7 +32,7 @@ export default class extends AbstractView {
 
             <a href="/1-More-2021" class="card" data-link>
               <div class="thumb_image">
-                <img src="./static/assets/6_etc/spareNose(2018).jpeg" alt="pilates" width="200px" aspect-ratio="auto 200 / 134" height="134px"/>
+                <img src="./static/assets/6_etc/spareNose(2018).jpeg" alt="nose" width="200px" aspect-ratio="auto 200 / 134" height="134px"/>
               </div>
               <div class="thumb_title">
                 <span>여분의 코(2018)</span>
@@ -41,7 +41,7 @@ export default class extends AbstractView {
 
             <a href="/1-More-2021" class="card" data-link>
               <div class="thumb_image">
-                <img src="./static/assets/6_etc/emojidialogue(2017).png" alt="pilates" width="200px" aspect-ratio="auto 200 / 134" height="134px"/>
+                <img src="./static/assets/6_etc/emojidialogue(2017).png" alt="emojis" width="200px" aspect-ratio="auto 200 / 134" height="134px"/>
               </div>
               <div class="thumb_title">
                 <span>Emoji Dialogue(2017)</span>
@@ -50,7 +50,7 @@ export default class extends AbstractView {
 
             <a href="/1-More-2021" class="card" data-link>
               <div class="thumb_image">
-                <img src="./static/assets/6_etc/privatelessonToughLife(2016).jpeg" alt="pilates" width="200px" aspect-ratio="auto 200 / 134" height="134px"/>
+                <img src="./static/assets/6_etc/privatelessonToughLife(2016).jpeg" alt="privatelesson" width="200px" aspect-ratio="auto 200 / 134" height="134px"/>
               </div>
               <div class="thumb_title">
                 <span>고생개인지도(2016)</span>
@@ -59,8 +59,7 @@ export default class extends AbstractView {
 
             <a href="/1-More-2021" class="card" data-link>
               <div class="thumb_image">
-                <img src="./static/assets/6_etc/evilpigeon(2016).png" alt="pilates" width="200px" 
-    aspect-ratio="auto 200 / 134" height="134px"/>
+                <img src="./static/assets/6_etc/evilpigeon(2016).png" alt="pigeon" width="200px" aspect-ratio="auto 200 / 134" height="134px"/>
               </div>
               <div class="thumb_title">
                 <span>악덕한 비둘기(2016)</span>
