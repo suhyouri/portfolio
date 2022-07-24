@@ -17,7 +17,7 @@ export default class extends AbstractView {
                 <img src="./static/assets/2_game/onemore_title.gif" alt="pilates" width="200px" aspect-ratio="auto 200 / 134" height="134px"/>
               </div>
               <div class="thumb_title">
-                <span>1 More(2021)</span>
+                <span>1 More(2021)~개발중~</span>
               </div>
             </a>
 
@@ -26,7 +26,7 @@ export default class extends AbstractView {
                 <img src="./static/assets/2_game/main-img.gif" alt="pilates" width="200px" aspect-ratio="auto 200 / 134" height="134px"/>
               </div>
               <div class="thumb_title">
-                <span>1 More(2021)</span>
+                <span>영-영,Pointless Sight(2018)</span>
               </div>
             </a>
 
