@@ -11,7 +11,7 @@ export default class extends AbstractView {
     return `
         <div class="project_title">영-영, Pointless Sight(2018)</div>
         <div class="project_content">
-          <img src="./static/assets/2_game/PointlessSight/main-img.gif" alt="pointlessSight" width="600" height=auto/>
+          <img src="./static/assets/2_game/main-img.gif" alt="pointlessSight" width="600" height=auto/>
           <br>
           <br>
           <b>영-영, Pointless Sight, 서유리,가상현실, 2018, ∞, 가변크기</b><br>
@@ -44,9 +44,9 @@ export default class extends AbstractView {
         <a href="https://kiia.creatorlink.net/%EC%84%9C%EC%9C%A0%EB%A6%AC" class="nav__link">Graduation Exhibition</a>
         <br>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/OGwQoQVzR0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <img src="./static/assets/2_game/PointlessSight/concept.jpeg" alt="pointlessSight" width="560" height=auto/>
-        <img src="./static/assets/2_game/PointlessSight/10.gif" alt="pointlessSight" width="560" height=auto/>
-        <img src="./static/assets/2_game/PointlessSight/scene.jpg" alt="pointlessSight" width="560" height=auto/>
+        <img src="./static/assets/2_game/concept.jpeg" alt="pointlessSight" width="560" height=auto/>
+        <img src="./static/assets/2_game/10.gif" alt="pointlessSight" width="560" height=auto/>
+        <img src="./static/assets/2_game/scene.jpg" alt="pointlessSight" width="560" height=auto/>
         <br>
         [작가노트 중]<br>
         <br>
