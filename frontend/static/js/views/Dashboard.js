@@ -21,12 +21,12 @@ export default class extends AbstractView {
               </div>
             </a>
 
-            <a href="/Pointless-Sight-2018" class="card" data-link>
+            <a href="/1-More-2021" class="card" data-link>
               <div class="thumb_image">
-               <img src="./static/assets/1_Illustration/onemore_title.gif" alt="pilates" width="200px" 
-    aspect-ratio="auto 200 / 134" height="134px"/>
+                <img src="./static/assets/1_Illustration/onemore_title.gif" alt="pilates" width="200px" aspect-ratio="auto 200 / 134" height="134px"/>
+              </div>
               <div class="thumb_title">
-                <span">영-영, Pointless Sight(2018)</span>
+                <span>1 More(2021)</span>
               </div>
             </a>
 
